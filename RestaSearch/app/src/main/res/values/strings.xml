@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name" translatable="false">RestaSearch</string>
+
+    <string name="navigation_drawer_open" translatable="false">RestaSearchMenuOpen</string>
+    <string name="navigation_drawer_close" translatable="false">RestaSearchMenuClose</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="button_cancel">cancel</string>
+
+    <!-- Menu -->
+    <string name="menu_inici">Home</string>
+    <string name="menu_preferits">Favorites</string>
+    <string name="menu_historial">History</string>
+    <string name="menu_idioma">Language</string>
+    <string name="menu_privacitat_us">Privacy and conditions of use</string>
+
+    <!-- Filtres -->
+    <string name="filtres_restaurant_obert">Opened restaurants</string>
+    <string name="filtres_distancia">Distance</string>
+    <string name="filtres_preu">Price</string>
+    <string name="filtres_valoracio">Rating</string>
+    <string name="filtres_netejar">Clean Filters</string>
+
+    <!--Preu
+    price_level — The price level of the place, on a scale of 0 to 4. The exact amount indicated by a specific value will vary from region to region. Price levels are interpreted as follows:
+    0 — Free
+    1 — Inexpensive
+    2 — Moderate
+    3 — Expensive
+    4 — Very Expensive -->
+
+    <!-- Idiomes -->
+    <string name="language_choose">Choose your language.</string>
+    <string name="language_en">english</string>
+    <string name="language_es">spanish</string>
+    <string name="language_ca">catalan</string>
+
+    <!-- Alerts-->
+    <string name="alert_distancia">Choose distance</string>
+    <string name="alert_preu">Choose price</string>
+    <string name="alert_valoracio">Choose the minimum rating</string>
+    <string name="alert_rating_text">Leave your rating</string>
+    <string name="alert_price_0">Less inexpensive</string>
+    <string name="alert_price_1">Inexpensive</string>
+    <string name="alert_rating_stars">Rating:</string>
+    <string name="alert_price_2">Moderate</string>
+    <string name="alert_price_3">Expensive</string>
+    <string name="alert_price_4">Very Expensive</string>
+    <string name="alert_distance_1" translatable="false">1+ km</string>
+    <string name="alert_distance_2" translatable="false">2+ km</string>
+    <string name="alert_distance_3" translatable="false">3+ km</string>
+    <string name="alert_distance_4" translatable="false">4+ km</string>
+    <string name="alert_distance_5" translatable="false">5+ km</string>
+    <string name="alert_distance_6" translatable="false">10+ km</string>
+
+    <string name="label_establiment_global_rating">Rating: <b>%1$.1f</b></string>
+    <string name="label_establiment_total_reviews">Reviews: <b>%1$d</b></string>
+    <string name="label_establiment_loading">Loading data</string>
+
+    <string name="button_accept_policy">Accept</string>
+    <string name="checkbox_accept_policy">I have read and accept the privacy policy.</string>
+
+    <string name="alert_call_title">Call</string>
+    <string name="alert_call_message">Do you want to call the following number telephone?</string>
+
+    <!-- Privacitat -->
+    <string name="privacy_title">PRIVACY POLICY</string>
+    <string name="privacy_update_date">Last update: May 2021.</string>
+    <string name="privacy_title1">1. INFORMATION TO THE USER</string>
+    <string name="privacy_title1_line1"><b>RestaSearch, S.L.</b>, as Data Controller, informs you that, in accordance with the provisions of Regulation (EU) 2016/679, of 27 April, (RGPD) and in the O.L. 3/2018, of December 5, on data protection and guarantee of digital rights (LOPDGDD), we will treat your data as we reflect in this Privacy Policy.</string>
+    <string name="privacy_title1_line2">In this Privacy Policy we describe how we collect your personal data and why we collect it, what we do with it, with whom we share it, how we protect it, and your options regarding the processing of your personal data collected by the company for the provision of its services. If you accept the measures of this Policy, you agree that we process your personal data as defined in this Policy.</string>
+
+    <string name="privacy_title2">2. CONTACT</string>
+    <string name="privacy_title2_line1">Company name: <b>RestaSearch, S.L.</b></string>
+    <string name="privacy_title2_line2">Trade name: <b>RestaSearch</b></string>
+    <string name="privacy_title2_line3">CIF: <b>00000000X</b></string>
+    <string name="privacy_title2_line4">Address: <b>Carrer de Cartellà, 8, 17007 Girona</b></string>
+    <string name="privacy_title2_line5">e-mail: <b>RestaSearch@restasearch.com</b></string>
+
+    <string name="privacy_title3">3. KEY PRINCIPLES</string>
+    <string name="privacy_title3_line1">We have always been committed to providing our services with the highest degree of quality, which includes treating your data with security and transparency. Our principles are:</string>
+    <string name="privacy_title3_line2"><ul><li><b>Legality:</b> We will only collect your Personal Data for specific, explicit and legitimate purposes.</li>\n<li><b>Data Minimization:</b> We limit the collection of your personal data to what is strictly relevant and necessary for the purposes for which it was collected.</li>\n<li><b>Limitation of Purpose:</b> We will only collect your personal data for the stated purposes and only according to your wishes.</li>\n<li><b>Accuracy:</b> We will keep your personal information accurate and up to date.</li>\n<li><b>Data Security:</b> We apply the appropriate technical and organizational measures proportional to the risk to ensure that your data doesn’t suffer damage, such as unauthorized disclosure or access, accidental or illegal destruction or accidental loss or alteration and in any other way of illicit treatment.</li>\n<li><b>Access and Rectification:</b> We have the ways for you to access or rectify your data when you deem it appropriate.</li>\n<li><b>Conservation:</b> We keep your personal data legally and appropriately and only as long as it is necessary for the purposes for which it was collected.</li>\n<li><b>International Transfers:</b> In case that your data is going to be transferred outside the EU/EEA, it will be adequately protected.</li>\n<li><b>Third parties:</b> The access and transfer of personal data to third parties are carried out in accordance with the applicable laws and regulation and with the appropriate contractual guarantees.</li>\n<li><b>Direct Marketing and cookies:</b> We comply with the applicable legislation regarding advertising and cookies.</li></ul></string>
+
+    <string name="privacy_title4">4. COLLECTION AND PROCESSING OF YOUR PERSONAL DATA</string>
+    <string name="privacy_title4_line1">The types of data that can be requested and processed are:</string>
+    <string name="privacy_title4_line2"><ul><li>Identifying data.</li></ul></string>
+    <string name="privacy_title4_line3">We also automatically collect data about your visit to our website as described in the cookies policy.</string>
+    <string name="privacy_title4_line4">Whenever we request your Personal Data, we will clearly inform you of what personal data we collect and for what purpose. In general we collect and process your personal data for the purpose of:</string>
+    <string name="privacy_title4_line5"><ul><li>Provide information, services, products, relevant information and new in the sector.</li>\n<li>Sending of communications.</li></ul></string>
+
+    <string name="privacy_title5">5. LEGITIMACY</string>
+    <string name="privacy_title5_line1">In accordance with the applicable data protection regulations, your personal data may be processed provided that:</string>
+    <string name="privacy_title5_line2"><ul><li>You have given us your consent for the purposes of the treatment. Of course your can withdraw your consent whenever you want.</li>\n<li>By legal requirement.</li>\n<li>Because there is a legitimate interest that isn’t undermined by your privacy rights, such as the sending of commercial information either by subscribing to our newsletter or by your client condition.</li>\n<li>Because it is necessary for the provision of any of our services through a contractual relationship between you and us.</li></ul></string>
+
+    <string name="privacy_title6">6. PERSONAL DATA COMUNICATION</string>
+    <string name="privacy_title6_line1">The data can be communicated to companies related to <b>RESTASEARCH, S.L.</b> for the prevision of the various services as Treatment Managers. The company won’t make any assignment, except by legal obligation.</string>
+
+    <string name="privacy_title7">7. YOUR RIGHTS</string>
+    <string name="privacy_title7_line1">In relation to the collection and processing of your personal data, you can contact us at any time to:</string>
+    <string name="privacy_title7_line2"><ul><li>Access to your personal data and any other information indicated in the Article 15.1 of the RGPD.</li>\n<li>Rectify your personal data that is inaccurate or incomplete in accordance to the Article 16 of the RGPD.</li>\n<li>Delete your personal data in accordance with the Article 17 del RGPD.</li>\n<li>Limit the processing of your personal data in accordance with the Article 18 of the RGPD.</li>\n<li>Request the portability of your data in accordance with the Article 20 of the RGPD.</li>\n<li>Oppose the processing of your personal data in accordance with the Article 21 of the RGPD.</li></ul></string>
+    <string name="privacy_title7_line3">If you have given your consent for a specific purpose, you have the right to withdraw the consent granted at any time, without affecting the legality of the treatment based on the consent to its withdrawal HR. You can exercise your rights sending a motivated and accredited communication to <b>restasearch@restasearch.com</b>.</string>
+    <string name="privacy_title7_line4">You also have the right to file a claim with the competent Control Authority <a href="www.aepd.es">(www.aepd.es)</a></string>
+
+    <string name="privacy_title8">8. LEGAL INFORMATION</string>
+    <string name="privacy_title8_line1">The requirements of this Policy complement, and don’t replace any other requirement under the applicable data protection law, which will prevail in any case.</string>
+    <string name="privacy_title8_line2">This Policy is subject to periodic reviews and the company can modify it at any time. When this occurs, we will notify you of any changes and ask you to reread the most recent version of our Policy and confirm your agreement. </string>
+    <string name="button_back">back</string>
+    <string name="establiment_weekdays">Weekly schedule</string>
+    <string name="establiment_photo_page">%1$d of %2$d</string>
+    <string name="establiment_reviews">Reviews</string>
+    <string name="accept_privacity">You must accept our privacy policy</string>
+
+</resources>

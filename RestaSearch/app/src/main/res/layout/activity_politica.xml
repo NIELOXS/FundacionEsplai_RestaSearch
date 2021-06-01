@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context=".PoliticaActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar_layout"/>
+
+        <Button
+            android:theme="@style/EstilBotoPrincipal"
+            android:id="@+id/btn_accept"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="32dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/button_accept_policy"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline3"
+            app:layout_constraintStart_toStartOf="@+id/guideline2" />
+
+        <CheckBox
+            android:id="@+id/box_policy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/checkbox_accept_policy"
+            app:layout_constraintBottom_toTopOf="@+id/btn_accept"
+            app:layout_constraintEnd_toStartOf="@+id/guideline3"
+            app:layout_constraintStart_toStartOf="@+id/guideline2" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent=".05" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.95" />
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/box_policy"
+            app:layout_constraintEnd_toStartOf="@+id/guideline3"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/main_title"
+                    style="@style/PrivacyMainTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/privacy_title" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    style="@style/PrivacyLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy_update_date" />
+
+                <TextView
+                    android:id="@+id/title1"
+                    style="@style/PrivacyTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy_title1" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    style="@style/PrivacyLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy_title1_line1" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    style="@style/PrivacyLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy_title1_line2" />
+
+                <TextView
+                    android:id="@+id/title2"
+                    style="@style/PrivacyTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy_title2" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    style="@style/PrivacyLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy_title2_line1" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    style="@style/PrivacyLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy_title2_line2" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    style="@style/PrivacyLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy_title2_line3" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    style="@style/PrivacyLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy_title2_line4" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    style="@style/PrivacyLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy_title2_line5" />
+
+                <TextView
+                    android:id="@+id/title3"
+                    style="@style/PrivacyTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy_title3" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    style="@style/PrivacyLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy_title3_line1" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    style="@style/PrivacyListLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy_title3_line2" />
+
+                <TextView
+                    android:id="@+id/title4"
+                    style="@style/PrivacyTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy_title4" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    style="@style/PrivacyLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy_title4_line1" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    style="@style/PrivacyLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy_title4_line2" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    style="@style/PrivacyLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy_title4_line3" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    style="@style/PrivacyLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy_title4_line4" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    style="@style/PrivacyListLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy_title4_line5" />
+
+                <TextView
+                    android:id="@+id/title5"
+                    style="@style/PrivacyTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy_title5" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    style="@style/PrivacyLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy_title5_line1" />
+
+                <TextView
+                    android:id="@+id/textView25"
+                    style="@style/PrivacyListLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy_title5_line2" />
+
+                <TextView
+                    android:id="@+id/title6"
+                    style="@style/PrivacyTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy_title6" />
+
+                <TextView
+                    android:id="@+id/textView27"
+                    style="@style/PrivacyLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy_title6_line1" />
+
+                <TextView
+                    android:id="@+id/title7"
+                    style="@style/PrivacyTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy_title7" />
+
+                <TextView
+                    android:id="@+id/textView29"
+                    style="@style/PrivacyLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy_title7_line1" />
+
+                <TextView
+                    android:id="@+id/textView30"
+                    style="@style/PrivacyListLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy_title7_line2" />
+
+                <TextView
+                    android:id="@+id/textView31"
+                    style="@style/PrivacyLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy_title7_line3" />
+
+                <TextView
+                    android:id="@+id/textView32"
+                    style="@style/PrivacyLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoLink="web"
+                    android:text="@string/privacy_title7_line4" />
+
+                <TextView
+                    android:id="@+id/title8"
+                    style="@style/PrivacyTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy_title8" />
+
+                <TextView
+                    android:id="@+id/textView34"
+                    style="@style/PrivacyLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy_title8_line1" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    style="@style/PrivacyLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy_title8_line2" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <include
+        android:id="@+id/navigation_view"
+        layout="@layout/navigation_layout"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

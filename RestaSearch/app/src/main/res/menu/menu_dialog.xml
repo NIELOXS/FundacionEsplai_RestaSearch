@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/favourite"
+        android:icon="@drawable/baseline_bookmark_border_24"
+        android:title="favourite"
+        android:state_checked="false"
+        android:visible="true"
+        app:showAsAction="always" />
+</menu>
